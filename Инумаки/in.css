@@ -1,0 +1,233 @@
+@font-face {
+    font-family: Galdo;
+    src: url(шрифты//Galgo/Galgo.ttf);
+}
+
+header {
+    color: #d8c5e4;
+    height: 20vh;
+}
+body {
+    margin: 0px;
+    background-color: rgb(232, 227, 250);
+}
+#headr1{
+    background-color: #d2c0dd;
+    height: 10vh;
+    display: flex;
+    align-items: center; 
+    flex-direction: row;
+
+ }
+ #лосось{
+    margin-left: 2vw;
+    height: 4.5vw;
+    border-radius: 2.5vw;
+ }
+ #тунец{
+    border-radius: 1vw;
+    height: 60vh;
+    width: 60vh;
+    flex-direction: row;
+    margin: 6vw;
+ }
+ #imya{
+    font-weight: 500;
+    font-size: 4vw;
+    text-align: center;
+    color: #9b6ab8;
+ }
+#майонез{
+    display: flex;
+}
+#oni{
+    background-color: #e9ceff;
+    border-radius: 5vh;
+    font-size: 4vh;
+    text-align: center;
+    width: 80vh;
+    height: 60vh;
+    margin: 6vw;
+    flex-direction: column;
+}
+#opisanie{
+margin: 3vw;
+text-align: center;
+color: #5e476d;
+}
+h1{
+    color: #a49ee0;
+}
+#обои{
+    width: 100%;
+    border-radius: 3vw;
+}
+#fefe{
+    text-align: center;
+    font-size: 3vw;
+    color: #696496;
+    border-bottom: 5vw;
+}
+.lya{
+    font-size: 2.5vw;
+    color: #8984b9;
+    margin: 1vw;
+}
+#kruzochkki{
+    background-color: #d3d3eb;
+    border-radius: 1vw;
+}
+#k , #m , #o{
+    text-align: center;
+}
+#g , #my{
+    text-align: end;
+}
+#proklyat{
+    text-align: center;
+    color: #4b476d;
+    font-size: 3vw;
+}
+#da{
+    display: flex;
+}
+#rech{
+    justify-content: flex-start;
+    width: 35vw;
+    background-color: #ecdaf7;
+    border-radius: 3vw;
+    margin-left: 6vw;
+}
+#pismo{
+    text-align: center;
+    margin: 1vw;
+    font-size: 2vw;
+    color: #734886;
+}
+#gorchica{
+    width: 35vw;
+    border-radius: 1vw;
+    margin-left: 6vw;
+}
+#oo{
+    display: flex;
+}
+#oooooooo{
+    width: 100%;
+    background-color:#cec9e9;
+    border-radius: 2vw;
+    justify-content: center;
+    margin: 4vw;
+}
+#ftt{
+    font-size: 2vw;
+    color: #6f6b99;
+    margin: 2vw;
+}
+#komanda{
+    text-align: center;
+    color: #ecdaf7;
+    font-size: 3vw;
+}
+.komanda{
+    width: 80vw;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+}
+.команда{
+    width: 20vw;
+    height: 15vh;
+    background-color: #e3ccf1;
+    margin-left: 4vw;
+    margin-right: 2vw;
+    margin-top: 4vh;
+    border-radius: 3vh;
+}
+.название{
+    text-align: center;
+    font-size: 1.5vw;
+    font-family: nunito;
+    margin:0;
+    padding-top: 5vh;
+    color:#dfb9e9;
+}
+#cnariazenie{
+    display: flex;
+    background-color: #d7b2d8;
+    width: 42vw;
+    border-radius: 2vw;
+    margin-left: 4vw;
+    flex-direction: row;
+}
+#zagolovok{
+    font-size: 2vw;
+    margin-top: 1vw;
+    margin-left: 1.5vw;
+    color:#8c6b99 ;
+}
+#clova{
+    margin-top: 3vw;
+    font-size: 1.5vw;
+    margin-right: 1.5vw;
+    color: #9975a7;
+}
+#lolo{
+    display: flex;
+    justify-content: end;
+
+}
+#popo{
+    display: flex;
+    flex-direction: row;
+}
+#tutuu{
+    border-radius: 2vw;
+    width: 20vw;
+    margin-left: 12vw;
+}
+
+
+.rotate-block {
+    width: 100%;
+    margin-top: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+  .change-img {
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+    border: 1px solid #c988bb; 
+    border-radius: 3vw;
+  }
+  .change-img:hover .front-side-img {
+    transform: rotateY(180deg);
+  }
+  .change-img:hover .back-side-img {
+    transform: rotateY(360deg);
+  }
+  .front-side-img, .back-side-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+   }
+  .front-side-img img {
+    max-width: 100%;
+    min-width: 100%;
+    height: auto;
+    border-radius: 20vw;
+  }
+  .back-side-img img {
+    max-width: 100%;
+    min-width: 100%;
+    height: auto;
+    transform: scaleX(-1);
+  }
+  .back-side-img {
+    transform: rotateY(180deg);
+  }
